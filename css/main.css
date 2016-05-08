@@ -139,11 +139,8 @@ header .header-content .inner p {
 
 
 .typing{
-	font-size: 14px;
-	margin: 30px;
 	white-space:nowrap;
 	overflow: hidden;
-	width: 30em;
 	animation: type 4s steps(50, end) 1;	
 }
 
