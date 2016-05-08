@@ -142,3 +142,24 @@ header .header-content .inner p {
     font-family: 'Dancing Script', cursive;
     text-transform: none;
 }
+
+
+p{
+	font-size: 14px;
+	margin: 30px;
+	white-space:nowrap;
+	overflow: hidden;
+	width: 30em;
+	animation: type 4s steps(50, end) 1;	
+}
+
+@keyframes type{
+	from{ width: 0;}
+}
+span{
+	animation: blink 1s infinite;
+}
+
+@keyframes blink{
+	to{ opacity: .0;}
+}
